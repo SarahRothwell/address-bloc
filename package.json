@@ -4,8 +4,23 @@
   "description": "An application to model an address book in Node",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export NODE_ENV=test && jasmine"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahRothwell/address-bloc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SarahRothwell/address-bloc/issues"
+  },
+  "homepage": "https://github.com/SarahRothwell/address-bloc#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
 }
